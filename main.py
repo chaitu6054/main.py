@@ -31,6 +31,8 @@ df = pd.read_csv('D:\\Amazon.csv\\amazon.csv')
 # dataframe copied data into another dataframe
 dataframe = df.copy()
 
+# ghfghdgf
+
 # TASK 2 : SPLITTING DATASET INTO TRAIN DATA AND TEST DATA
 print("Before {}".format(len(dataframe)))
 After_Operation_Data = dataframe.dropna(subset=["reviews.rating"])
